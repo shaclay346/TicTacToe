@@ -3,39 +3,11 @@
 
 <head>
 	<title>Tic Tac Toe</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-	<div class="header">
-		<h1 id="colorDisplay">
-			<span>Tic Tac Toe</span>
-		</h1>
-	</div>
-
-	<section id="stripe">
-		<button class="selected" id="reset">New Game</button>
-		<button class="selected" id="AI">AI first</button>
-	</section>
-
-	<div>
-		<p class="displayText" id="message"></p>
-		<p class="displayText" id="turn"></p>
-	</div>
-
-	<div id="container">
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-	</div>
-
-	<script src="dist/ticTacToe.js"></script>
+	<div id="root"></div>
+	<script type="module" src="/src/main.tsx"></script>
 </body>
 
 </html>
