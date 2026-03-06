@@ -1,0 +1,12 @@
+{
+    "name": "tic-tac-toe-ai",
+    "version": "1.0.0",
+    "description": "Tic Tac Toe with AI using minimax",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}

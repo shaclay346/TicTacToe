@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "lib": ["ES2017", "DOM"],
+        "strict": true,
+        "outDir": "dist",
+        "rootDir": ".",
+        "noEmitOnError": true
+    },
+    "include": ["ticTacToe.ts"]
+}
